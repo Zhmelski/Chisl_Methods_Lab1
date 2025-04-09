@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GaussMethod.cpp" />
+    <ClCompile Include="LDLT_Factorization.cpp" />
     <ClCompile Include="Main_App.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main_Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
